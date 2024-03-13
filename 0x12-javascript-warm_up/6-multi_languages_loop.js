@@ -1,8 +1,7 @@
 #!/usr/bin/node
-const myLines = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-const arrayLength = myLines.length;
-let i = 0;
-while (i < arrayLength) {
-  console.log(myLines[i]);
-  i++;
+// Uses an array to loop through and print strings
+
+const langs = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+for (let i = 0; i < langs.length; i++) {
+  console.log(langs[i]);
 }

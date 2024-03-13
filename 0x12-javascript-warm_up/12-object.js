@@ -1,11 +1,10 @@
 #!/usr/bin/node
+// Replaces values 12 to 89
+
 const myObject = {
   type: 'object',
   value: 12
 };
 console.log(myObject);
-/*
-YOUR CODE HERE
-*/
 myObject.value = 89;
 console.log(myObject);
